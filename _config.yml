@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   limit: 9
   exclude:
     archived: false
@@ -25,12 +25,17 @@ projects:
 
 social_media:
   linkedin: andreas-sagen
+  kaggle: exterex
   website: https://sagen.io
 
 topics:
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+
+  - name: R
+    web_url: https://github.com/topics/r
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/r/r.png
 
   - name: C
     web_url: https://github.com/topics/c
@@ -43,3 +48,7 @@ topics:
   - name: Docker
     web_url: https://github.com/topics/docker
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/docker/docker.png
+
+  - name: Go
+    web_url: https://github.com/topics/go
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/go/go.png
